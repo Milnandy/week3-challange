@@ -45,3 +45,34 @@ body {
   font-size: 1.6rem;
   font-family: var(--font-primary);
 }
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+} 
+
+.card {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
