@@ -16,3 +16,7 @@ This project is a simple yet elegant landing page that serves as an online trave
 - **HTML5** - semantic elements for structure
 - **CSS3** - for layout, animation, and responsiveness
 - **Freepick** - for consistent icon design
+
+## Link
+
+Live Demo 👉 [Click here](https://milnandy.github.io/week3-challange/)
