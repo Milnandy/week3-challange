@@ -1,4 +1,6 @@
+## Overview
 
+This project is a simple yet elegant landing page that serves as an online travel landing page. It’s designed by team collaboration.
 
 ## Features
 
