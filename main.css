@@ -85,6 +85,9 @@ body {
   margin: 0 10%;
   margin-bottom: 10%;
 }
+.lower-about {
+  margin: 0 3rem;
+}
 .card1 {
   flex: 5;
 }
