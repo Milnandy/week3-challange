@@ -1,4 +1,4 @@
-@import url("./navbar.css");
+@import url('./navbar.css');
 
 :root {
   --primary-color: #3498db;
@@ -9,7 +9,7 @@
   --bg-white: #ffffff;
   --border-color: #f0f0f0;
 
-  --font-primary: "Baloo 2", sans-serif;
+  --font-primary: 'Baloo 2', sans-serif;
 
   --shadow-navbar: 0 0.2rem 1rem rgba(0, 0, 0, 0.05);
   --shadow-soft: 0 1rem 4rem rgba(0, 0, 0, 0.1);
@@ -44,4 +44,48 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--font-primary);
+}
+
+/* Footer */
+
+footer {
+  margin: 100px auto;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+form input {
+  font-family: var(--font-primary);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+textarea {
+  border-radius: 10px;
+}
+
+input[type='submit'] {
+  background-color: skyblue;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    width: 500px;
+  }
+
+  .form-img {
+    display: none;
+  }
 }
