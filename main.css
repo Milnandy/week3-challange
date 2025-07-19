@@ -46,6 +46,54 @@ body {
   font-family: var(--font-primary);
 }
 
+/* about section  */
+.upper-about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+  margin-bottom: 10%;
+}
+.card1 {
+  flex: 5;
+}
+.card1 p,
+.card1 h1 {
+  text-align: left;
+}
+.card1 img {
+  width: 100%;
+}
+.card2 {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+.card2 div {
+  flex: 5;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo-container a {
+  font-size: 0.5rem;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  text-align: left;
+}
+.avatar {
+  height: 150px;
+  object-fit: cover;
+  padding: 5px 15px;
+}
+
 /* Footer */
 
 footer {
