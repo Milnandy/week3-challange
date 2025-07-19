@@ -1,16 +1,16 @@
-* **Nama Tag:** `tagname` (misal: `p`, `div`, `h1`)
-* **ID:** `tagname#id` (misal: `div#header`)
-* **Class:** `tagname.class` (misal: `p.intro`)
-* **ID & Class:** `tagname#id.class` (misal: `section#main.container`)
-* **Nesting (Bersarang):** `parent>child` (misal: `div>ul>li`)
-* **Sibling (Sejajar):** `element1+element2` (misal: `h1+p`)
-* **Multiplikasi (Jumlah):** `element*jumlah` (misal: `li*3`)
-* **Konten Teks:** `element{Teks Konten}` (misal: `p{Ini paragraf}`)
-* **Penomoran Otomatis:** `element{$ Item$}` (misal: `li{$ Item$}`)
-* **Atribut Kustom:** `element[attr=value]` (misal: `input[type=text name=username]`)
 
-**Kombinasi Umum:**
 
-* `ul>li*3>a`
-* `ul>li*3>a{Link $}`
+## Features
 
+- Responsive layout for desktop, tablet, and mobile
+- Fixed navigation bar with smooth and snap scroll
+- Section-based design: Navigation Home, About, Contact & footer
+- Email and social media icons (using freepick)
+- Minimalist, modern aesthetic with custom color palette
+- Scroll-friendly layout with clean structure
+
+## Technologies Used
+
+- **HTML5** - semantic elements for structure
+- **CSS3** - for layout, animation, and responsiveness
+- **Freepick** - for consistent icon design
